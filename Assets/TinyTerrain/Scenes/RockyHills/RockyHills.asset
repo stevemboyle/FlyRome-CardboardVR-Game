@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1594740388, guid: 201b2c8bd11319f44b83e67aab62e61f, type: 3}
+  m_Name: RockyHills
+  m_EditorClassIdentifier: 
+  Name: 5465727261696e
+  Material: {fileID: 2100000, guid: e40f48bd0b9026e4ead4fe1c11fb4061, type: 2}
+  TerrainFractal:
+    Type: 4
+    Octaves: 4
+    Lacunarity: 2
+    H: 0.5
+    Offset: 0.08
+    Seed: 0
+  VegetationFractal:
+    Type: 0
+    Octaves: 4
+    Lacunarity: 2
+    H: 0.152
+    Offset: 0.25
+    Seed: 3
+  VegetationFractalScale: 0.001
+  VegetationFractalNoise: 0.426
+  Geometry:
+    PositionFrequencyScale: 0.002
+    WarpFrequencyRatio: 1
+    WarpMagnitudeScale: 2
+    TerraceMagnitudeRatio: 0
+    TerraceFrequencyRatio: 0
+    HeightDropoffScale: 0.01
+  Size:
+    Width: 1000
+    Length: 1000
+    Height: 110
+  NumDivisions: 4
+  RemoveIsolatedVertices: 1
+  SampleNormals: 1
+  NormalSmoothing: 10
+  Texture: {fileID: 2800000, guid: c1177d4b22835ab4f9acb18c39c019a1, type: 3}
+  TextureSize: 256
+  GetColor: {fileID: 11500000, guid: 66f7855cf0855f1408d5b94aee72c40f, type: 3}
+  SampleSize: 64
+  GetPrefab: {fileID: 0}
+  GetDensity: {fileID: 11500000, guid: 3a46d29a53de2934081e08057d9024c4, type: 3}
+  ProcessSurface: {fileID: 0}
+  DetesselationLevel: 0.5
+  Prefabs: []
+  TerrainInstanceId: -582108

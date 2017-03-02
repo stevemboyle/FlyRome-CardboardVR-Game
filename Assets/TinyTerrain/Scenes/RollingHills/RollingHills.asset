@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1594740388, guid: 201b2c8bd11319f44b83e67aab62e61f, type: 3}
+  m_Name: RollingHills
+  m_EditorClassIdentifier: 
+  Name: 5465727261696e
+  Material: {fileID: 2100000, guid: 20f29dec087db654bac9b1d1102d4176, type: 2}
+  TerrainFractal:
+    Type: 2
+    Octaves: 4
+    Lacunarity: 2
+    H: 0.55
+    Offset: 0.05
+    Seed: 0
+  VegetationFractal:
+    Type: 0
+    Octaves: 3
+    Lacunarity: 2
+    H: 0.5
+    Offset: 0.1
+    Seed: 0
+  VegetationFractalScale: 0.001
+  VegetationFractalNoise: 0.515
+  Geometry:
+    PositionFrequencyScale: 0.005
+    WarpFrequencyRatio: 1
+    WarpMagnitudeScale: 1
+    TerraceMagnitudeRatio: 0
+    TerraceFrequencyRatio: 0
+    HeightDropoffScale: 0.01
+  Size:
+    Width: 1000
+    Length: 1000
+    Height: 140
+  NumDivisions: 4
+  RemoveIsolatedVertices: 0
+  SampleNormals: 1
+  NormalSmoothing: 5
+  Texture: {fileID: 2800000, guid: 452e327f8db555046a659cafed4812b3, type: 3}
+  TextureSize: 256
+  GetColor: {fileID: 11500000, guid: 182d5b3cc67848d499df21736761cc16, type: 3}
+  SampleSize: 64
+  GetPrefab: {fileID: 0}
+  GetDensity: {fileID: 11500000, guid: 3a46d29a53de2934081e08057d9024c4, type: 3}
+  ProcessSurface: {fileID: 0}
+  DetesselationLevel: 0.5
+  Prefabs: []
+  TerrainInstanceId: -580280

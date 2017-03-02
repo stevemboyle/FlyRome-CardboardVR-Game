@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{9ECDA6A0-2488-9E81-C2FA-EC2A47ABAF9F}") = "RomanVR", "Assembly-CSharp-firstpass.csproj", "{822F6AB0-98B7-D753-558A-18F02641A665}"
+EndProject
+Project("{9ECDA6A0-2488-9E81-C2FA-EC2A47ABAF9F}") = "RomanVR", "Assembly-CSharp.csproj", "{462195FE-2D32-D2EE-0397-81717609E53F}"
+EndProject
+Project("{9ECDA6A0-2488-9E81-C2FA-EC2A47ABAF9F}") = "RomanVR", "Assembly-CSharp-Editor.csproj", "{7DF46E2D-ECB0-D381-FF9D-DA44163E6C62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{822F6AB0-98B7-D753-558A-18F02641A665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{822F6AB0-98B7-D753-558A-18F02641A665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{822F6AB0-98B7-D753-558A-18F02641A665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{822F6AB0-98B7-D753-558A-18F02641A665}.Release|Any CPU.Build.0 = Release|Any CPU
+		{462195FE-2D32-D2EE-0397-81717609E53F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{462195FE-2D32-D2EE-0397-81717609E53F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{462195FE-2D32-D2EE-0397-81717609E53F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{462195FE-2D32-D2EE-0397-81717609E53F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DF46E2D-ECB0-D381-FF9D-DA44163E6C62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DF46E2D-ECB0-D381-FF9D-DA44163E6C62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DF46E2D-ECB0-D381-FF9D-DA44163E6C62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DF46E2D-ECB0-D381-FF9D-DA44163E6C62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
